@@ -2,7 +2,7 @@
 //  GameSettingsViewController.h
 //  Matchismo3
 //
-//  Created by ROCHANNE MIRANDA on 11/15/13.
+//  Created by ROCHANNE MIRANDA on 10/14/14.
 //  Copyright (c) 2014 TopEspCG. All rights reserved.
 //
 

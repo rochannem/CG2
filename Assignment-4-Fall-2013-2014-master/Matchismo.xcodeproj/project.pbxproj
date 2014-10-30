@@ -296,7 +296,7 @@
 			attributes = {
 				CLASSPREFIX = CardGame;
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "";
+				ORGANIZATIONNAME = TopEspCG;
 				TargetAttributes = {
 					E4A2D23118261314004D613E = {
 						DevelopmentTeam = QLY879YR3Y;
@@ -500,7 +500,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Matchismo/Matchismo-Prefix.pch";
 				INFOPLIST_FILE = "Matchismo/Matchismo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = Matchismo;
 				WRAPPER_EXTENSION = app;
 			};
@@ -515,7 +515,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Matchismo/Matchismo-Prefix.pch";
 				INFOPLIST_FILE = "Matchismo/Matchismo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = Matchismo;
 				WRAPPER_EXTENSION = app;
 			};

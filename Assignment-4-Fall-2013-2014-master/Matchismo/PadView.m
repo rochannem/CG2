@@ -2,7 +2,7 @@
 //  PadView.m
 //  Matchismo4a
 //
-//  Created by ROCHANNE MIRANDA on 11/30/13.
+//  Created by ROCHANNE MIRANDA on 10/24/14.
 //  Copyright (c) 2014 TopEspCG. All rights reserved.
 //
 
