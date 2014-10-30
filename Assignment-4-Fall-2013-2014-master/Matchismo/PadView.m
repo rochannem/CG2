@@ -2,8 +2,8 @@
 //  PadView.m
 //  Matchismo4a
 //
-//  Created by Tatiana Kornilova on 11/30/13.
-//  Copyright (c) 2013 Tatiana Kornilova. All rights reserved.
+//  Created by ROCHANNE MIRANDA on 11/30/13.
+//  Copyright (c) 2014 TopEspCG. All rights reserved.
 //
 
 #import "PadView.h"

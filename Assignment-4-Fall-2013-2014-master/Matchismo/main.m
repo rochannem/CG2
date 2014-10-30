@@ -2,8 +2,8 @@
 //  main.m
 //  Matchismo
 //
-//  Created by Tatiana Kornilova on 11/2/13.
-//  Copyright (c) 2013 Tatiana Kornilova. All rights reserved.
+//  Created by ROCHANNE MIRANDA on 9/21/14.
+//  Copyright (c) 2014 TopEspCG. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -2,8 +2,8 @@
 //  PlayingCardView.m
 //  SuperCard
 //
-//  Created by Tatiana Kornilova on 2/15/13.
-//  Copyright (c) 2013 Tatiana Kornilova. All rights reserved.
+//  Created by ROCHANNE MIRANDA on 2/15/13.
+//  Copyright (c) 2014 TopEspCG. All rights reserved.
 //
 
 #import "PlayingCardView.h"

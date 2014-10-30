@@ -2,8 +2,8 @@
 //  PlayingCard.h
 //  Matchismo
 //
-//  Created by Tatiana Kornilova on 11/3/13.
-//  Copyright (c) 2013 Tatiana Kornilova. All rights reserved.
+//  Created by ROCHANNE MIRANDA on 10/13/14.
+//  Copyright (c) 2014 TopEspCG. All rights reserved.
 //
 
 #import "Card.h"

@@ -2,8 +2,8 @@
 //  CheckView.m
 //  Matchismo4a
 //
-//  Created by Tatiana Kornilova on 12/6/13.
-//  Copyright (c) 2013 Tatiana Kornilova. All rights reserved.
+//  Created by ROCHANNE MIRANDA on 12/6/13.
+//  Copyright (c) 2014 TopEspCG. All rights reserved.
 //
 
 #import "CheckView.h"
