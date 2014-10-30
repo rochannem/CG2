@@ -3,7 +3,7 @@
 //  SuperCard
 //
 //  Created by ROCHANNE MIRANDA on 10/14/14.
-//  Copyright (c) 2013 Stanford University. All rights reserved.
+//  Copyright (c) 2014 TopEspCG. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

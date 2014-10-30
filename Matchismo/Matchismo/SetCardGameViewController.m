@@ -10,6 +10,10 @@
 #import "SetCardDeck.h"
 #import "SetCard.h"
 #import "SetCardView.h"
+#import "CardMatchingGame.h"
+
+
+
 @interface SetCardGameViewController ()
 
 @end

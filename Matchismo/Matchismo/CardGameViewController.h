@@ -10,12 +10,16 @@
 #import <UIKit/UIKit.h>
 #import "Deck.h"
 #import "CardMatchingGame.h"
+#import "GameSettings.h"
 
 @interface CardGameViewController : UIViewController
 
 @property (nonatomic)NSUInteger startingCardCount;  //abstract
 @property (nonatomic)BOOL addCardsAfterDelete; //abstract
 
+@property (nonatomic, strong) CardMatchingGame *game;
+@property (strong, nonatomic) GameSettings *gameSettings;
+@property (nonatomic) NSInteger scoreAdjustment;
 
 // protected
 // for subclasses
@@ -26,5 +30,9 @@
 
 - (UIView *)cellViewForCard:(Card *)card inRect:(CGRect)rect; //abstract
 - (void) updateCell:(UIView *)cell usingCard:(Card *)card animate:(BOOL)animate; //abstract
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
+- (IBAction)Deal;
+- (void)updateUI;
+
 
 @end

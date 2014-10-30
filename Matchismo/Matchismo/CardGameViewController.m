@@ -10,12 +10,12 @@
 #import "Grid.h"
 #import "PadView.h"
 #import "CheckView.h"
-
+#import "CardMatchingGame.h"
 
 @interface CardGameViewController ()
 
 @property (strong, nonatomic) Deck *deck;
-@property (nonatomic,strong) CardMatchingGame *game;
+
 @property (nonatomic) int flipCount;
 
 @property (strong,nonatomic) Grid *grid;
@@ -33,7 +33,7 @@
 @property (nonatomic) NSUInteger hint;
 @property (nonatomic) NSUInteger iOfSets;
 
-@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
+
 @property (weak, nonatomic) IBOutlet UILabel *resultsLabel;
 @property (weak, nonatomic) IBOutlet UIButton *hintButton;
 
