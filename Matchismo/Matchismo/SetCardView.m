@@ -2,7 +2,7 @@
 //  SetCardView.m
 //  SuperSetCard
 //
-//  Created by ROCHANNE MIRANDA on 10/13/14.
+//  Created by ROCHANNE MIRANDA on 10/20/14.
 //  Copyright (c) 2014 TopEspCG. All rights reserved.
 //  Most Code for shapes from  Marko Kuljanski
 //  https://github.com/Kulja/Matchismo
