@@ -59,11 +59,11 @@
     self.scoreLabel.attributedText = label;
 }
 
-- (void)touchDealButton:(UIButton *)sender
+- (void)Deal:(UIButton *)sender
 {
     self.playerScores = nil;
     self.currentPlayer = 0;
-    [super Deal];
+    [super Deal:sender];
 }
 
 @end

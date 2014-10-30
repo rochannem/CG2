@@ -43,7 +43,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="Deal" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RZW-ld-0Sd"/>
+                                    <action selector="Deal:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0UN-eg-ZS1"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etQ-D9-pJp">
@@ -147,7 +147,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="Deal" destination="drh-pa-Dii" eventType="touchUpInside" id="IUi-di-gsx"/>
+                                    <action selector="Deal:" destination="drh-pa-Dii" eventType="touchUpInside" id="7W1-RX-HdO"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxD-CC-bO9">
@@ -417,10 +417,10 @@
             </objects>
             <point key="canvasLocation" x="207" y="475"/>
         </scene>
-        <!--Set Card Game View Controller - Set Card-->
+        <!--Two Player Set Card Game View Controller - Two Payers Set Card-->
         <scene sceneID="JLR-K1-iD2">
             <objects>
-                <viewController id="pug-HS-xBJ" customClass="SetCardGameViewController" sceneMemberID="viewController">
+                <viewController id="pug-HS-xBJ" customClass="TwoPlayerSetCardGameViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sQl-al-dZc"/>
                         <viewControllerLayoutGuide type="bottom" id="zWS-45-p2m"/>
@@ -451,7 +451,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="Deal" destination="pug-HS-xBJ" eventType="touchUpInside" id="4we-wI-Dt7"/>
+                                    <action selector="Deal:" destination="pug-HS-xBJ" eventType="touchUpInside" id="6Jo-k5-FaV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDI-MB-hlh">
@@ -508,7 +508,7 @@
                             <constraint firstItem="Dbf-2K-dgh" firstAttribute="leading" secondItem="fVB-I5-GKG" secondAttribute="leading" id="vk5-94-w7J"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Set Card" id="xQ9-RT-ZdC"/>
+                    <navigationItem key="navigationItem" title="Two Payers Set Card" id="xQ9-RT-ZdC"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <outlet property="padView" destination="Dbf-2K-dgh" id="S2i-Ly-HmH"/>
@@ -522,12 +522,12 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1694" y="103"/>
+            <point key="canvasLocation" x="1697" y="103"/>
         </scene>
-        <!--Navigation Controller - Two Players Set-->
+        <!--Navigation Controller - Two Players Set Cards-->
         <scene sceneID="WXv-xn-9SF">
             <objects>
-                <navigationController title="Two Players Set" automaticallyAdjustsScrollViewInsets="NO" id="IjZ-GQ-Hmp" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IjZ-GQ-Hmp" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Two Players Set Cards" image="Files" id="Het-90-zVd"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aPO-3W-8c7">

@@ -19,10 +19,10 @@
 
 @property (nonatomic, strong) CardMatchingGame *game;
 @property (strong, nonatomic) GameSettings *gameSettings;
-@property (nonatomic) NSInteger scoreAdjustment;
 
-// protected
-// for subclasses
+@property (nonatomic) NSInteger scoreAdjustment;
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
+
 - (Deck *)createDeck;   //abstract
 - (NSUInteger)numberOfMatches; //abstract
 - (CGFloat)cardAspectRatio; //abstract
@@ -30,8 +30,8 @@
 
 - (UIView *)cellViewForCard:(Card *)card inRect:(CGRect)rect; //abstract
 - (void) updateCell:(UIView *)cell usingCard:(Card *)card animate:(BOOL)animate; //abstract
-@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
-- (IBAction)Deal;
+
+- (IBAction)Deal:(UIButton *)sender;
 - (void)updateUI;
 
 

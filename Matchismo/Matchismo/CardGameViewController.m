@@ -207,14 +207,13 @@
     }
 }
 
-- (IBAction)Deal
+- (IBAction)Deal:(UIButton *)sender
 {
     self.game = nil;
     self.flipCount =0;
     self.grid.minimumNumberOfCells = self.startingCardCount;
     [self performIntroAnimationForView:self.padView];
     self.resultsLabel.text=[NSString stringWithFormat:@"Cards in deck: %d",([self.deck count]-[self.game cardsInPlay])];
-
 
 }
 
@@ -547,4 +546,5 @@
     [self updateUI];
 
 }
+
 @end
