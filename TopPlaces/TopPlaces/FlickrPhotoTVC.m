@@ -2,8 +2,8 @@
 //  FlickrPhotoTVC.m
 //  TopPlaces
 //
-//  Created by Ruthwick Pathireddy on 7/22/14.
-//  Copyright (c) 2014 Darkking. All rights reserved.
+//  Created by ROCHANNE MIRANDA on 11/13/14.
+//  Copyright (c) 2014 TopEspCG. All rights reserved.
 //
 
 #import "FlickrPhotoTVC.h"

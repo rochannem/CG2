@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D26A79F0-2F52-44D6-9B71-23D64980F488</string>
+	<string>895CF61D-F944-4C29-AA79-EB6CFC6EDAAA</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TopPlaces</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>94A0EABF-9482-4CA2-A84E-8880FD1C0E07</key>
-		<string>https://github.com/ruthwickp/TopPlaces.git</string>
+		<key>20B9B6DE-88D9-4C09-B648-DF5BDE4C9FB9</key>
+		<string>https://github.com/rochannem/CG2.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TopPlaces.xcodeproj/project.xcworkspace</string>
+	<string>TopPlaces/TopPlaces.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>94A0EABF-9482-4CA2-A84E-8880FD1C0E07</key>
-		<string>../..</string>
+		<key>20B9B6DE-88D9-4C09-B648-DF5BDE4C9FB9</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ruthwickp/TopPlaces.git</string>
+	<string>https://github.com/rochannem/CG2.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>94A0EABF-9482-4CA2-A84E-8880FD1C0E07</string>
+	<string>20B9B6DE-88D9-4C09-B648-DF5BDE4C9FB9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>94A0EABF-9482-4CA2-A84E-8880FD1C0E07</string>
+			<string>20B9B6DE-88D9-4C09-B648-DF5BDE4C9FB9</string>
 			<key>IDESourceControlWCCName</key>
-			<string>TopPlaces</string>
+			<string>CG2-Git</string>
 		</dict>
 	</array>
 </dict>

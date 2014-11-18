@@ -2,8 +2,8 @@
 //  RecentlyViewedFlickrPhotosTVC.h
 //  TopPlaces
 //
-//  Created by Ruthwick Pathireddy on 7/24/14.
-//  Copyright (c) 2014 Darkking. All rights reserved.
+//  Created by ROCHANNE MIRANDA on 11/14/14.
+//  Copyright (c) 2014 TopEspCG. All rights reserved.
 //
 
 #import "FlickrPhotoTVC.h"
