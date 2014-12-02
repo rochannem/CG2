@@ -14,7 +14,7 @@
 
 @implementation FlickrRegionPhotosCDTVC
 
-// When region is set, we create a NSFetchResultsController to display
+// When region is set, create a NSFetchResultsController to display
 // photos within the region
 - (void)setRegion:(Region *)region
 {

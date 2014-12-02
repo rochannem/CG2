@@ -74,7 +74,7 @@
     }
 }
 
-// Once the document is ready, we fetch flickr photos
+// Once the document is ready, fetch flickr photos
 - (void)documentIsReady
 {
     if (self.document.documentState == UIDocumentStateNormal) {
