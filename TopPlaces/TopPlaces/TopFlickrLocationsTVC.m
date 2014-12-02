@@ -20,7 +20,7 @@
 
 #pragma mark - Property setters and getters
 
-// Lazy instantiation
+
 - (NSMutableDictionary *)topLocations
 {
     if (!_topLocations) {
@@ -29,7 +29,6 @@
     return _topLocations;
 }
 
-// Lazy instantiation
 - (NSArray *)countries
 {
     if (!_countries) {
@@ -38,7 +37,7 @@
     return _countries;
 }
 
-// Lazy instantiation
+
 - (NSMutableArray *)photoDetails
 {
     if (!_photoDetails) {
@@ -160,11 +159,9 @@
 
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
     if ([sender isKindOfClass:[UITableViewCell class]]) {
         NSIndexPath *cellIndex = [self.tableView indexPathForCell:sender];
         if (cellIndex) {

@@ -105,7 +105,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o6U-dZ-Kn0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="86" y="-2408"/>
+            <point key="canvasLocation" x="72" y="-2398"/>
         </scene>
         <!--Flickr Location PhotosTVC-->
         <scene sceneID="dMt-E5-Nea">

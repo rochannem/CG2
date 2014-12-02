@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D78635919880C65001021CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D78635819880C65001021CB /* Foundation.framework */; };
+		7D78635B19880C65001021CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D78635A19880C65001021CB /* CoreGraphics.framework */; };
+		7D78635D19880C65001021CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D78635C19880C65001021CB /* UIKit.framework */; };
+		7D78636319880C65001021CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D78636119880C65001021CB /* InfoPlist.strings */; };
+		7D78636519880C65001021CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D78636419880C65001021CB /* main.m */; };
+		7D78636919880C65001021CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D78636819880C65001021CB /* AppDelegate.m */; };
+		7D78636C19880C65001021CB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D78636A19880C65001021CB /* Main_iPhone.storyboard */; };
+		7D78637219880C65001021CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D78637119880C65001021CB /* ViewController.m */; };
+		7D78637419880C65001021CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D78637319880C65001021CB /* Images.xcassets */; };
+		7D78637B19880C65001021CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D78637A19880C65001021CB /* XCTest.framework */; };
+		7D78637C19880C65001021CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D78635819880C65001021CB /* Foundation.framework */; };
+		7D78637D19880C65001021CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D78635C19880C65001021CB /* UIKit.framework */; };
+		7D78638519880C65001021CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D78638319880C65001021CB /* InfoPlist.strings */; };
+		7D78638719880C65001021CB /* TopRegionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D78638619880C65001021CB /* TopRegionsTests.m */; };
+		7D78639419880E8E001021CB /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D78639319880E8E001021CB /* FlickrFetcher.m */; };
+		7D78639819880E97001021CB /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D78639719880E97001021CB /* CoreDataTableViewController.m */; };
+		7D78639B19880F58001021CB /* TopRegions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D78639919880F58001021CB /* TopRegions.xcdatamodeld */; };
+		7D7863B019881C99001021CB /* Photo+Flickr.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7863AF19881C99001021CB /* Photo+Flickr.m */; };
+		7D7863B319882907001021CB /* Region+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7863B219882907001021CB /* Region+Create.m */; };
+		7D89610119893250008207B7 /* Photographer+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D89610019893250008207B7 /* Photographer+Create.m */; };
+		7D89610C19894F2E008207B7 /* TopFlickrRegionsCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D89610319894F2E008207B7 /* TopFlickrRegionsCDTVC.m */; };
+		7D89610D19894F2E008207B7 /* FlickrRegionPhotosCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D89610519894F2E008207B7 /* FlickrRegionPhotosCDTVC.m */; };
+		7D89610E19894F2E008207B7 /* FlickrPhotoCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D89610719894F2E008207B7 /* FlickrPhotoCDTVC.m */; };
+		7D89610F19894F2E008207B7 /* RecentlyViewedFlickrPhotosCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D89610919894F2E008207B7 /* RecentlyViewedFlickrPhotosCDTVC.m */; };
+		7D89611019894F2E008207B7 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D89610B19894F2E008207B7 /* ImageViewController.m */; };
+		7DBD28FE1990172300904A35 /* Photographer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD28FD1990172300904A35 /* Photographer.m */; };
+		7DBD29011990172400904A35 /* Region.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD29001990172400904A35 /* Region.m */; };
+		7DBD29071990380C00904A35 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD29061990380C00904A35 /* Photo.m */; };
+		BD96AFDF1A2C72BB0012B543 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD96AFDE1A2C72BB0012B543 /* Main_iPad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D78637E19880C65001021CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D78634D19880C65001021CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D78635419880C65001021CB;
+			remoteInfo = TopRegions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D717A8B198C6E1300D6009F /* DatabaseAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseAvailability.h; sourceTree = "<group>"; };
+		7D78635519880C65001021CB /* TopRegions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopRegions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D78635819880C65001021CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D78635A19880C65001021CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D78635C19880C65001021CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D78636019880C65001021CB /* TopRegions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopRegions-Info.plist"; sourceTree = "<group>"; };
+		7D78636219880C65001021CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D78636419880C65001021CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D78636619880C65001021CB /* TopRegions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopRegions-Prefix.pch"; sourceTree = "<group>"; };
+		7D78636719880C65001021CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D78636819880C65001021CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D78636B19880C65001021CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7D78637019880C65001021CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D78637119880C65001021CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D78637319880C65001021CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D78637919880C65001021CB /* TopRegionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopRegionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D78637A19880C65001021CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7D78638219880C65001021CB /* TopRegionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopRegionsTests-Info.plist"; sourceTree = "<group>"; };
+		7D78638419880C65001021CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D78638619880C65001021CB /* TopRegionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopRegionsTests.m; sourceTree = "<group>"; };
+		7D78639119880E8E001021CB /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		7D78639219880E8E001021CB /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		7D78639319880E8E001021CB /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		7D78639619880E97001021CB /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		7D78639719880E97001021CB /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		7D78639A19880F58001021CB /* TopRegions.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TopRegions.xcdatamodel; sourceTree = "<group>"; };
+		7D7863AE19881C99001021CB /* Photo+Flickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photo+Flickr.h"; sourceTree = "<group>"; };
+		7D7863AF19881C99001021CB /* Photo+Flickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photo+Flickr.m"; sourceTree = "<group>"; };
+		7D7863B119882907001021CB /* Region+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Region+Create.h"; sourceTree = "<group>"; };
+		7D7863B219882907001021CB /* Region+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Region+Create.m"; sourceTree = "<group>"; };
+		7D8960FF19893250008207B7 /* Photographer+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photographer+Create.h"; sourceTree = "<group>"; };
+		7D89610019893250008207B7 /* Photographer+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photographer+Create.m"; sourceTree = "<group>"; };
+		7D89610219894F2E008207B7 /* TopFlickrRegionsCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopFlickrRegionsCDTVC.h; sourceTree = "<group>"; };
+		7D89610319894F2E008207B7 /* TopFlickrRegionsCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopFlickrRegionsCDTVC.m; sourceTree = "<group>"; };
+		7D89610419894F2E008207B7 /* FlickrRegionPhotosCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrRegionPhotosCDTVC.h; sourceTree = "<group>"; };
+		7D89610519894F2E008207B7 /* FlickrRegionPhotosCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrRegionPhotosCDTVC.m; sourceTree = "<group>"; };
+		7D89610619894F2E008207B7 /* FlickrPhotoCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoCDTVC.h; sourceTree = "<group>"; };
+		7D89610719894F2E008207B7 /* FlickrPhotoCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoCDTVC.m; sourceTree = "<group>"; };
+		7D89610819894F2E008207B7 /* RecentlyViewedFlickrPhotosCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentlyViewedFlickrPhotosCDTVC.h; sourceTree = "<group>"; };
+		7D89610919894F2E008207B7 /* RecentlyViewedFlickrPhotosCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentlyViewedFlickrPhotosCDTVC.m; sourceTree = "<group>"; };
+		7D89610A19894F2E008207B7 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		7D89610B19894F2E008207B7 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		7DBD28FC1990172300904A35 /* Photographer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photographer.h; sourceTree = "<group>"; };
+		7DBD28FD1990172300904A35 /* Photographer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photographer.m; sourceTree = "<group>"; };
+		7DBD28FF1990172400904A35 /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Region.h; sourceTree = "<group>"; };
+		7DBD29001990172400904A35 /* Region.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Region.m; sourceTree = "<group>"; };
+		7DBD29051990380C00904A35 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		7DBD29061990380C00904A35 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		BD96AFDE1A2C72BB0012B543 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D78635219880C65001021CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D78635B19880C65001021CB /* CoreGraphics.framework in Frameworks */,
+				7D78635D19880C65001021CB /* UIKit.framework in Frameworks */,
+				7D78635919880C65001021CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D78637619880C65001021CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D78637B19880C65001021CB /* XCTest.framework in Frameworks */,
+				7D78637D19880C65001021CB /* UIKit.framework in Frameworks */,
+				7D78637C19880C65001021CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D78634C19880C65001021CB = {
+			isa = PBXGroup;
+			children = (
+				7D78635E19880C65001021CB /* TopRegions */,
+				7D78638019880C65001021CB /* TopRegionsTests */,
+				7D78635719880C65001021CB /* Frameworks */,
+				7D78635619880C65001021CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D78635619880C65001021CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D78635519880C65001021CB /* TopRegions.app */,
+				7D78637919880C65001021CB /* TopRegionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D78635719880C65001021CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D78635819880C65001021CB /* Foundation.framework */,
+				7D78635A19880C65001021CB /* CoreGraphics.framework */,
+				7D78635C19880C65001021CB /* UIKit.framework */,
+				7D78637A19880C65001021CB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D78635E19880C65001021CB /* TopRegions */ = {
+			isa = PBXGroup;
+			children = (
+				BD96AFDD1A2C71110012B543 /* iPad */,
+				7D78639919880F58001021CB /* TopRegions.xcdatamodeld */,
+				7DBD29051990380C00904A35 /* Photo.h */,
+				7DBD29061990380C00904A35 /* Photo.m */,
+				7DBD28FF1990172400904A35 /* Region.h */,
+				7DBD29001990172400904A35 /* Region.m */,
+				7DBD28FC1990172300904A35 /* Photographer.h */,
+				7DBD28FD1990172300904A35 /* Photographer.m */,
+				7D7863AE19881C99001021CB /* Photo+Flickr.h */,
+				7D7863AF19881C99001021CB /* Photo+Flickr.m */,
+				7D7863B119882907001021CB /* Region+Create.h */,
+				7D7863B219882907001021CB /* Region+Create.m */,
+				7D8960FF19893250008207B7 /* Photographer+Create.h */,
+				7D89610019893250008207B7 /* Photographer+Create.m */,
+				7D78636A19880C65001021CB /* Main_iPhone.storyboard */,
+				BD96AFDE1A2C72BB0012B543 /* Main_iPad.storyboard */,
+				7D78636719880C65001021CB /* AppDelegate.h */,
+				7D78636819880C65001021CB /* AppDelegate.m */,
+				7D717A8B198C6E1300D6009F /* DatabaseAvailability.h */,
+				7D78637019880C65001021CB /* ViewController.h */,
+				7D78637119880C65001021CB /* ViewController.m */,
+				7D89610219894F2E008207B7 /* TopFlickrRegionsCDTVC.h */,
+				7D89610319894F2E008207B7 /* TopFlickrRegionsCDTVC.m */,
+				7D89610419894F2E008207B7 /* FlickrRegionPhotosCDTVC.h */,
+				7D89610519894F2E008207B7 /* FlickrRegionPhotosCDTVC.m */,
+				7D89610619894F2E008207B7 /* FlickrPhotoCDTVC.h */,
+				7D89610719894F2E008207B7 /* FlickrPhotoCDTVC.m */,
+				7D89610819894F2E008207B7 /* RecentlyViewedFlickrPhotosCDTVC.h */,
+				7D89610919894F2E008207B7 /* RecentlyViewedFlickrPhotosCDTVC.m */,
+				7D89610A19894F2E008207B7 /* ImageViewController.h */,
+				7D89610B19894F2E008207B7 /* ImageViewController.m */,
+				7D78637319880C65001021CB /* Images.xcassets */,
+				7D78639519880E97001021CB /* CoreDataTableViewController */,
+				7D78639019880E8E001021CB /* Flickr Fetcher */,
+				7D78635F19880C65001021CB /* Supporting Files */,
+			);
+			path = TopRegions;
+			sourceTree = "<group>";
+		};
+		7D78635F19880C65001021CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D78636019880C65001021CB /* TopRegions-Info.plist */,
+				7D78636119880C65001021CB /* InfoPlist.strings */,
+				7D78636419880C65001021CB /* main.m */,
+				7D78636619880C65001021CB /* TopRegions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D78638019880C65001021CB /* TopRegionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D78638619880C65001021CB /* TopRegionsTests.m */,
+				7D78638119880C65001021CB /* Supporting Files */,
+			);
+			path = TopRegionsTests;
+			sourceTree = "<group>";
+		};
+		7D78638119880C65001021CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D78638219880C65001021CB /* TopRegionsTests-Info.plist */,
+				7D78638319880C65001021CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D78639019880E8E001021CB /* Flickr Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				7D78639119880E8E001021CB /* FlickrAPIKey.h */,
+				7D78639219880E8E001021CB /* FlickrFetcher.h */,
+				7D78639319880E8E001021CB /* FlickrFetcher.m */,
+			);
+			path = "Flickr Fetcher";
+			sourceTree = "<group>";
+		};
+		7D78639519880E97001021CB /* CoreDataTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7D78639619880E97001021CB /* CoreDataTableViewController.h */,
+				7D78639719880E97001021CB /* CoreDataTableViewController.m */,
+			);
+			path = CoreDataTableViewController;
+			sourceTree = "<group>";
+		};
+		BD96AFDD1A2C71110012B543 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D78635419880C65001021CB /* TopRegions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D78638A19880C65001021CB /* Build configuration list for PBXNativeTarget "TopRegions" */;
+			buildPhases = (
+				7D78635119880C65001021CB /* Sources */,
+				7D78635219880C65001021CB /* Frameworks */,
+				7D78635319880C65001021CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopRegions;
+			productName = TopRegions;
+			productReference = 7D78635519880C65001021CB /* TopRegions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D78637819880C65001021CB /* TopRegionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D78638D19880C65001021CB /* Build configuration list for PBXNativeTarget "TopRegionsTests" */;
+			buildPhases = (
+				7D78637519880C65001021CB /* Sources */,
+				7D78637619880C65001021CB /* Frameworks */,
+				7D78637719880C65001021CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D78637F19880C65001021CB /* PBXTargetDependency */,
+			);
+			name = TopRegionsTests;
+			productName = TopRegionsTests;
+			productReference = 7D78637919880C65001021CB /* TopRegionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D78634D19880C65001021CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Darkking;
+				TargetAttributes = {
+					7D78635419880C65001021CB = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					7D78637819880C65001021CB = {
+						TestTargetID = 7D78635419880C65001021CB;
+					};
+				};
+			};
+			buildConfigurationList = 7D78635019880C65001021CB /* Build configuration list for PBXProject "TopRegions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D78634C19880C65001021CB;
+			productRefGroup = 7D78635619880C65001021CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D78635419880C65001021CB /* TopRegions */,
+				7D78637819880C65001021CB /* TopRegionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D78635319880C65001021CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D78637419880C65001021CB /* Images.xcassets in Resources */,
+				BD96AFDF1A2C72BB0012B543 /* Main_iPad.storyboard in Resources */,
+				7D78636C19880C65001021CB /* Main_iPhone.storyboard in Resources */,
+				7D78636319880C65001021CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D78637719880C65001021CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D78638519880C65001021CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D78635119880C65001021CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DBD29011990172400904A35 /* Region.m in Sources */,
+				7D78637219880C65001021CB /* ViewController.m in Sources */,
+				7D78636919880C65001021CB /* AppDelegate.m in Sources */,
+				7D78639419880E8E001021CB /* FlickrFetcher.m in Sources */,
+				7D7863B019881C99001021CB /* Photo+Flickr.m in Sources */,
+				7D89610E19894F2E008207B7 /* FlickrPhotoCDTVC.m in Sources */,
+				7D89610119893250008207B7 /* Photographer+Create.m in Sources */,
+				7D89610C19894F2E008207B7 /* TopFlickrRegionsCDTVC.m in Sources */,
+				7DBD28FE1990172300904A35 /* Photographer.m in Sources */,
+				7DBD29071990380C00904A35 /* Photo.m in Sources */,
+				7D89610F19894F2E008207B7 /* RecentlyViewedFlickrPhotosCDTVC.m in Sources */,
+				7D89611019894F2E008207B7 /* ImageViewController.m in Sources */,
+				7D89610D19894F2E008207B7 /* FlickrRegionPhotosCDTVC.m in Sources */,
+				7D78636519880C65001021CB /* main.m in Sources */,
+				7D78639819880E97001021CB /* CoreDataTableViewController.m in Sources */,
+				7D7863B319882907001021CB /* Region+Create.m in Sources */,
+				7D78639B19880F58001021CB /* TopRegions.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D78637519880C65001021CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D78638719880C65001021CB /* TopRegionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D78637F19880C65001021CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D78635419880C65001021CB /* TopRegions */;
+			targetProxy = 7D78637E19880C65001021CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D78636119880C65001021CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D78636219880C65001021CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D78636A19880C65001021CB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D78636B19880C65001021CB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7D78638319880C65001021CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D78638419880C65001021CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D78638819880C65001021CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D78638919880C65001021CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D78638B19880C65001021CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopRegions/TopRegions-Prefix.pch";
+				INFOPLIST_FILE = "TopRegions/TopRegions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D78638C19880C65001021CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopRegions/TopRegions-Prefix.pch";
+				INFOPLIST_FILE = "TopRegions/TopRegions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7D78638E19880C65001021CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TopRegions.app/TopRegions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopRegions/TopRegions-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TopRegionsTests/TopRegionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7D78638F19880C65001021CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TopRegions.app/TopRegions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopRegions/TopRegions-Prefix.pch";
+				INFOPLIST_FILE = "TopRegionsTests/TopRegionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D78635019880C65001021CB /* Build configuration list for PBXProject "TopRegions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D78638819880C65001021CB /* Debug */,
+				7D78638919880C65001021CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D78638A19880C65001021CB /* Build configuration list for PBXNativeTarget "TopRegions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D78638B19880C65001021CB /* Debug */,
+				7D78638C19880C65001021CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D78638D19880C65001021CB /* Build configuration list for PBXNativeTarget "TopRegionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D78638E19880C65001021CB /* Debug */,
+				7D78638F19880C65001021CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7D78639919880F58001021CB /* TopRegions.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7D78639A19880F58001021CB /* TopRegions.xcdatamodel */,
+			);
+			currentVersion = 7D78639A19880F58001021CB /* TopRegions.xcdatamodel */;
+			path = TopRegions.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7D78634D19880C65001021CB /* Project object */;
+}
